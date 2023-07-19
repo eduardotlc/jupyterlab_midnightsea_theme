@@ -6,18 +6,18 @@
 | :---------------: | :-------------------: |
 | [![ci-badge]][ci] | [![pypi-badge]][pypi] |
 
-[ci-badge]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/workflows/Build/badge.svg
-[ci]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml
-[pypi-badge]: https://badge.fury.io/py/jupyterlab-tranquilblue-theme.svg
-[pypi]: https://pypi.org/project/jupyterlab-tranquilblue-theme/
+[ci-badge]: https://github.com/eduardotlc/jupyterlab_midnightsea_theme/workflows/Build/badge.svg
+[ci]: https://github.com/eduardotlc/jupyterlab_midnightsea_theme/actions/workflows/build.yml
+[pypi-badge]: https://badge.fury.io/py/jupyterlab-midnightsea-theme.svg
+[pypi]: https://pypi.org/project/jupyterlab-midnightsea-theme/
 
 eduardotcampos@usp.br [2023]
 
 ## Appearance
 
-![Example 1](./images/jupyterlab_tranquilblue_1.png)
+![Example 1](./images/jupyterlab_midnightsea_1.png)
 
-![Example 2](./images/jupyterlab_tranquilblue_2.png)
+![Example 2](./images/jupyterlab_midnightsea_2.png)
 
 ## Requirements
 
