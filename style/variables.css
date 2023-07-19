@@ -18,7 +18,6 @@
     var(--jp-shadow-base-lightness),
     0.12
   );
-
   --jp-elevation-z0: none;
   --jp-elevation-z1: 0 2px 1px -1px var(--jp-shadow-umbra-color),
     0 1px 1px 0 var(--jp-shadow-penumbra-color),
