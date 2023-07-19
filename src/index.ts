@@ -14,7 +14,9 @@ const plugin: JupyterFrontEndPlugin<void> = {
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    console.log('JupyterLab extension jupyterlab_midnightsea_theme is activated!');
+    console.log(
+      'JupyterLab extension jupyterlab_midnightsea_theme is activated!'
+    );
     const style = 'jupyterlab_midnightsea_theme/index.css';
 
     manager.register({
@@ -27,3 +29,4 @@ const plugin: JupyterFrontEndPlugin<void> = {
 };
 
 export default plugin;
+
