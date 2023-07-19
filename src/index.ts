@@ -6,22 +6,22 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * Initialization data for the jupyterlab_midnightsea_theme extension.
+ * Initialization data for the jupyterlab_ariakedark_theme extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab_midnightsea_theme:plugin',
-  description: 'A dark blue and purple JupyterLab theme extension.',
+  id: 'jupyterlab_materialdarker_theme:plugin',
+  description: 'A material darker Jupyterlab theme extension.',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
     console.log(
-      'JupyterLab extension jupyterlab_midnightsea_theme is activated!'
+      'JupyterLab extension jupyterlab_materialdarker_theme is activated!'
     );
-    const style = 'jupyterlab_midnightsea_theme/index.css';
+    const style = 'jupyterlab_materialdarker_theme/index.css';
 
     manager.register({
-      name: 'jupyterlab_midnightsea_theme',
-      isLight: true,
+      name: 'jupyterlab_materialdarker_theme',
+      isLight: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
     });
@@ -29,4 +29,3 @@ const plugin: JupyterFrontEndPlugin<void> = {
 };
 
 export default plugin;
-
