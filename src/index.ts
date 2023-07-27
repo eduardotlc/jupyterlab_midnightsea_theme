@@ -20,7 +20,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const style = 'jupyterlab_midnightsea_theme/index.css';
 
     manager.register({
-      name: 'jupyterlab_midnightsea_theme',
+      name: 'Midnight Sea',
       isLight: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
