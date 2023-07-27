@@ -51,7 +51,6 @@ To make personal customizations to the theme, edit the [variables.css](./style/v
 
 Feel free to make [pending](./TODO.md) or other optimizations and pull requests, this theme is still under development and any contribution is very much appreciated.
 
-
 ### Development install
 
 Note: You will need NodeJS to build the extension package.
