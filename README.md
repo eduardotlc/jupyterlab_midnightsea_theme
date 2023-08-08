@@ -2,14 +2,17 @@
 
 **A jupyterlab theme based in cool blue and pruple palette extension.**
 
-|       build       |         PyPi          |
-| :---------------: | :-------------------: |
-| [![ci-badge]][ci] | [![pypi-badge]][pypi] |
+|       build       |         PyPi          |        License         |    Update     |
+| :---------------: | :-------------------: | :--------------------: | :-----------: |
+| [![ci-badge]][ci] | [![pypi-badge]][pypi] | [![mitbadge]][license] | ![lastupdate] |
 
 [ci-badge]: https://github.com/eduardotlc/jupyterlab_midnightsea_theme/workflows/Build/badge.svg
 [ci]: https://github.com/eduardotlc/jupyterlab_midnightsea_theme/actions/workflows/build.yml
 [pypi-badge]: https://badge.fury.io/py/jupyterlab-midnightsea-theme.svg
 [pypi]: https://pypi.org/project/jupyterlab-midnightsea-theme/
+[mitbadge]: ./images/badgemit.svg
+[license]: https://opensource.org/licenses/MIT
+[lastupdate]: ./images/badgeupdate.svg
 
 eduardotcampos@usp.br [2023]
 
