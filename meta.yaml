@@ -1,0 +1,44 @@
+{% set name = "jupyterlab_midnightsea_theme" %}
+{% set version = "0.1.4" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ba8e13863391803d5a1500f306925dff16adda86f9ed41b6d8b3b1d9aa7a59f0
+
+build:
+  noarch: python
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python >=3.7
+    - pip
+    - jupyterlab >=4.0.0,<5
+    - hatch-nodejs-version
+    - hatchling >=1.5.0
+    - hatch-jupyter-builder >=0.5
+  run:
+    - python >=3.7
+
+test:
+  requires:
+    - jupyterlab >=4.0.0,<5
+  commands:
+    - jupyter labextension list 2>&1 | grep -ie "jupyterlab_midnightsea_theme.*OK"
+    - python -m jupyterlab.browser_check  # [not linux]
+
+about:
+  home: https://github.com/eduardotlc/jupyterlab_midnightsea_theme
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: A dark blue and purple Jupyterlab theme extension.
+
+extra:
+  recipe-maintainers:
+    - eduardotlc
